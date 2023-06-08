@@ -25,6 +25,7 @@ class Subject extends Observable {
 }
 // 观察者
 class ConcreteObserver implements Observer {
+
     private String observerName;
 
     public ConcreteObserver(String observerName) {
