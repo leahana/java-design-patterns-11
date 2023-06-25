@@ -30,7 +30,8 @@ public class User {
 
 }
 class Main{
+
     public static void main(String[] args) {
-        User user = new User.UserBuilder().withFirstName("11").withLastName("22").build();
+        new User.UserBuilder().withFirstName("11").withLastName("22");
     }
 }
